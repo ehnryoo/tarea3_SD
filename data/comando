@@ -1,0 +1,1 @@
+hdfs dfs -put branch_trace_clean.csv /user/hdoop/data/branch_trace_clean.csv
