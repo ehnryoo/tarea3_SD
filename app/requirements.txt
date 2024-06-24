@@ -1,0 +1,5 @@
+Flask
+pyhive
+thrift
+thrift-sasl
+thriftpy2

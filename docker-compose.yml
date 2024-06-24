@@ -1,0 +1,10 @@
+services:
+  hive:
+    image: apache/hive:4.0.0
+    environment:
+      SERVICE_NAME: hiveserver2
+    ports:  
+      - 10000:10000 # Puerto para conexión por beeline
+      - 10002:10002 # Puerto para cliente web
+    volumes:
+      - ./scripts:/scripts
